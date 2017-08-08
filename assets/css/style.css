@@ -237,3 +237,116 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Phone Landscape View */
+@media screen and (min-width: 1px) and (max-width: 640px) {
+
+  body {
+    /*background-color: red;*/
+    /*background-image: none;*/
+  }
+
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #main-container {
+    padding-top: 0px;
+    max-width: 600px;
+  }
+
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  #logo {
+    width: 100%;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+
+  nav {
+    float: none;
+    margin-top: 0px;
+  }
+
+  nav a {
+    display: inline-block;
+    padding-left: 62px;
+    padding-right: 62px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+  .auth-image {
+    width: 520px;
+    height: 520px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .work {
+    width: 520px;
+  }
+
+
+}
+
+
+/* Tablet View*/
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+  body {
+    background-color: green;
+    background-image: none;
+  }
+
+}
+
+
+/* Big View*/
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+    body {
+    background-color: blue;
+    background-image: none;
+  }
+
+
+} 
+
+
+
