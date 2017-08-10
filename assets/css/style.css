@@ -383,6 +383,7 @@ input[type=submit] {
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
+    margin-bottom: 150px;
   }
 
   #logo {
@@ -427,6 +428,12 @@ input[type=submit] {
 
   .work {
     width: 270px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
 }
