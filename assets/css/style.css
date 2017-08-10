@@ -356,7 +356,7 @@ input[type=submit] {
 
   .container {
     width: 100%;
-    max-width: 720px;
+    max-width: 728px;
     margin: 0 auto;
     clear: both;
   }
@@ -368,7 +368,17 @@ input[type=submit] {
 
   .main-section {
     width: 100%;
-    max-width: 720px;
+    max-width: 728px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .main-section-Portfolio {
+    float: left;
+    width: 100%;
+    max-width: 728px;
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
@@ -427,7 +437,7 @@ input[type=submit] {
   }
 
   .work {
-    width: 270px;
+    width: 307px;
   }
 
   footer {
