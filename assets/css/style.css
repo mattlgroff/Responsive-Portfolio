@@ -403,8 +403,8 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 728px;
-    height: 728px;
+    width: 400px;
+    height: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
