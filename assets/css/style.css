@@ -350,7 +350,7 @@ input[type=submit] {
 
   .container {
     width: 100%;
-    max-width: 768px;
+    max-width: 720px;
     margin: 0 auto;
     clear: both;
   }
@@ -390,6 +390,7 @@ input[type=submit] {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    /*margin-left: 40px;*/
   }
 
   nav {
