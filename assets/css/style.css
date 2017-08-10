@@ -161,6 +161,16 @@ h3,
 
 /* portfolio page */
 
+.main-section-Portfolio {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 .work {
   position: relative;
   float: left;
@@ -332,13 +342,6 @@ input[type=submit] {
 
 /* Tablet View*/
 @media screen and (min-width: 641px) and (max-width: 768px) {
-/*@media screen and (max-width: 768px) {*/
-
-  body {
-    /*background-color: green;*/
-    /*background-image: none;*/
-  }
-
 
   #masthead {
     position: static;
@@ -432,11 +435,113 @@ input[type=submit] {
 /* Big View*/
 @media screen and (min-width: 769px) and (max-width: 980px) {
 
-    body {
-    background-color: blue;
-    background-image: none;
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
   }
 
+  .container {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+
+  #main-container {
+    padding-top: 0px;
+    max-width: 780px;
+  }
+
+  .main-section {
+    width: 100%;
+    max-width: 470px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 150px;
+  }
+
+  .main-section-Portfolio {
+    width: 100%;
+    max-width: 470px;
+    height: 1900px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 150px;
+  }
+
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+  }
+
+  #logo {
+    /*width: 100%;*/
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    /*margin-left: 40px;*/
+  }
+
+  nav {
+    float: right;
+    margin-top: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    /*padding-left: 62px;*/
+    /*padding-right: 62px;*/
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+  .auth-image {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .work {
+    width: 400px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 
 } 
 
