@@ -360,6 +360,15 @@ input[type=submit] {
     max-width: 728px;
   }
 
+  .main-section {
+    width: 100%;
+    max-width: 720px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
   .sidebar {
     float: left;
     width: 100%;
